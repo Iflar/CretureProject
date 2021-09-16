@@ -1,3 +1,7 @@
+body{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/6e/Primeval_beech_forest%2C_Bad%C3%ADnsky_prales.jpg);
+}
+
 .wrapper{
     margin: 2px;
 }
