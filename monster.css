@@ -3,25 +3,134 @@
 }
 
 .head{
-
+    position: fixed;
+    top: 20%;
+    left: 40%;
+    right: 20%;
+    border-bottom: 80px solid darkgreen;
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+	height: 0;
+	width: 250px;
 }
 
-.face{
+.mouth{
+    right: 40px;
+    bottom: 80px;
+    position: relative;
+    height: 50px;
+    width: 330px;
+    background-color: darkred;
+}
 
+.lower-jaw{
+    right: 40px;
+    bottom: 80px;
+    width: 270px;
+    position: relative;
+    z-index: 1;
+    border: 30px solid transparent;
+    border-top: 50px solid darkgreen;
+    border-bottom: 0px solid transparent;
 }
 
 .right-eye{
-
+    position: relative;
+    height: 80px;
+    width: 80px;
+    background-color: darkgreen;
+    border-radius: 50%;
+    left: 230px;
+    bottom: 40px;
 }
 
 .left-eye{
-
+    position: relative;
+    height: 80px;
+    width: 80px;
+    background-color: darkgreen;
+    border-radius: 50%;
+    right: 40px;
+    bottom: 120px;
 }
 
-#inner-right{
-    
+.inner-right{
+    position: relative;
+    height: 70px;
+    width:  70px;
+    background-color: red;
+    border-radius: 50%;
+    left: 4px;
+}
+#right-pupil{
+    left: 50%;
+    top: 40%;
+    position: relative;
+    height: 20px;
+    width: 5px;
+    background-color: black;
+    border-radius: 50%;
 }
 
-#inner-left{
-
+.inner-left{
+    position: relative;
+    height: 70px;
+    width:  70px;
+    background-color: red;
+    border-radius: 50%;
+    left: 5px;
 }
+#left-pupil{
+    left: 50%;
+    top: 40%;
+    position: relative;
+    height: 20px;
+    width: 5px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+#tooth1{
+    display: inline-block;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid white;
+}
+
+#tooth2{
+    display: inline-block;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid white;
+}
+
+#tooth3{
+    display: inline-block;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid white;
+}
+
+#tooth4{
+    display: inline-block;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid white;
+}
+
+#tooth5{
+    display: inline-block;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid white;
+}
+
+#tooth6{
+    display: inline-block;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid white;
+}
+
+
+
